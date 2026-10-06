@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-image: url('./assets/Duck-ai-image-2026-10-05-12-02.jpeg');
+    background-size: cover;     
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    
+    max-width: 375px; 
+    width: 90%;       
+    padding: 10px;   
+    margin: 40 auto;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    
+    border: 1px solid rgba(216, 225, 44, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(179, 179, 52, 0.2);
+}
+
+label {
+    color: #857937;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+select, input {
+    background: #9c9f60;
+    border: 1px solid #c4c70d;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #1a1a19;
+    cursor: pointer;
+}
+
+button {
+    background: #533488;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    color: #aab622;
+    font-weight: 900;
+    font-size: 24px;
+    border-width: 4;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #bbb6bf;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.arrow-img  {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency-first-box,
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.currency {
+    color: #a8b533;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #b1b868;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;      
+    justify-content: center; 
+}
